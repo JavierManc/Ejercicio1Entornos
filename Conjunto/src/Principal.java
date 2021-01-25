@@ -39,17 +39,20 @@ public class Principal {
 			break;
 			
 		case "resta":
-			
+			System.out.println(hacerResta(crear()));
+			break;
 			
 			break;
 			
 		case "multiplicacion":
-		
+			System.out.println(hacerMultiplicacion(crear()));
+			break;
 			
 			break;
 			
 		case "division":
-			
+			System.out.println(hacerDivision(crear()));
+			break;
 			
 			break;
 		}
