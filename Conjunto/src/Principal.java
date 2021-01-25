@@ -27,7 +27,7 @@ public class Principal {
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
 		
-		 System.out.println("dasdas");
+		 System.out.println("¿Qué cálculo quiéres hacer?");
 		 String calculo=teclado.next();
 		
 		
