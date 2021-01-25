@@ -35,25 +35,26 @@ public class Principal {
 		switch (calculo) {
 		
 		case "suma":
-			System.out.println(hacerSuma(crear()));
+			System.out.println("La suma de esos valores es: "+hacerSuma(crear()));
 			break;
 			
 		case "resta":
-			System.out.println(hacerResta(crear()));
+			System.out.println("La resta de esos valores es: "+hacerResta(crear()));
 			break;
 			
 			break;
 			
 		case "multiplicacion":
-			System.out.println(hacerMultiplicacion(crear()));
+			System.out.println("La multiplicación de esos valores es: "+hacerMultiplicacion(crear()));
 			break;
 			
 			break;
 			
 		case "division":
-			System.out.println(hacerDivision(crear()));
+			System.out.println("La división de esos valores es: "+hacerDivision(crear()));
 			break;
-			
+		default:
+			System.out.println("Cálculo no encontrado");
 			break;
 		}
 
