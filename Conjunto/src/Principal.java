@@ -16,7 +16,19 @@ public class Principal {
 		return calcular;
 	}
 	
-
+	public static int haceResta(int[] j) {
+		
+		
+		int resultado=j[0];
+		
+		for (int i = 1; i < j.length; i++) {
+			
+			resultado=resultado-j[i];
+			
+		}
+		return resultado;
+	}
+	
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
 		
