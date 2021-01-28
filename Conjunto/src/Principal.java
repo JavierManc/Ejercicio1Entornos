@@ -18,7 +18,7 @@ public class Principal {
 	public static int hacerMultiplicacion(int[] x) {
 		int resultado = 0;
 		for (int c = 0; c < x.length; c++) {
-			resultado = resultado / x[c];
+			resultado = resultado * x[c];
 		}
 		return resultado;
 	}
