@@ -16,6 +16,17 @@ public class Principal {
 		return calcular;
 	}
 	
+	public static int hacerSuma(int[]x) {
+		int resultado=0;
+		
+		for (int i = 0; i < x.length; i++) {
+			
+			resultado=resultado+x[i];
+			
+		}
+		return resultado;
+	}
+	
 	public static int haceResta(int[] j) {
 		
 		
