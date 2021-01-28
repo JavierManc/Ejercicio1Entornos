@@ -15,6 +15,7 @@ public class Principal {
 	}
 		return calcular;
 	}
+	
 	public static int hacerMultiplicacion(int[] x) {
 		int resultado = 0;
 		for (int c = 0; c < x.length; c++) {
@@ -28,6 +29,7 @@ public class Principal {
 			resultado = resultado/x[c];
 		}
 		return resultado;
+		
 	}
 
 	public static void main(String[] args) {
