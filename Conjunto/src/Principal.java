@@ -22,13 +22,7 @@ public class Principal {
 		}
 		return resultado;
 	}
-	public int hacerDivision(int[]x) {
-		int resultado=0 ;
-		for (int c=0;c<x.length;c++) {
-			resultado = resultado/x[c];
-		}
-		return resultado;
-	}
+	
 
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
