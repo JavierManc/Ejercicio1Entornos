@@ -19,8 +19,14 @@ public class PrincipalTest {
 	public void testHaceResta() {
 		assertEquals(6,Principal.haceResta(x));
 	}
-	
-	
+	@Test
+	public void testHacerDivision() {
+		assertEquals(4,Principal.hacerDivision(x));
+	}
+		@Test
+	public void testHacerMultiplicacion() {
+		assertEquals(16,Principal.hacerMultiplicacion(x));
+	}
 	
 	
 }
