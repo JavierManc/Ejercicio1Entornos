@@ -14,7 +14,13 @@ public class PrincipalTest {
 	public void testHacerSuma() {
 		assertEquals(10,Principal.hacerSuma(x));
 	}
-
+	
+	@Test
+	public void testHaceResta() {
+		assertEquals(6,Principal.haceResta(x));
+	}
+	
+	
 	
 	
 }
