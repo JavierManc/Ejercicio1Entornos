@@ -16,7 +16,7 @@ public class Principal {
 		return calcular;
 	}
 	public static int hacerMultiplicacion(int[] x) {
-		int resultado = 0;
+		int resultado = 1;
 		for (int c = 0; c < x.length; c++) {
 			resultado = resultado * x[c];
 		}
@@ -24,8 +24,8 @@ public class Principal {
 	}
 	
 	 public static int hacerDivision(int[]x) {
-		int resultado=0 ;
-		for (int c=0;c<x.length;c++) {
+		int resultado=x[0] ;
+		for (int c=1;c<x.length;c++) {
 			resultado = resultado/x[c];
 		}
 		return resultado;
@@ -59,7 +59,7 @@ public class Principal {
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
 		
-		 System.out.println("¿Qué cálculo quiéres hacer?");
+		 System.out.println("Â¿QuÃ© cÃ¡lculo quiÃ©res hacer?");
 		 String calculo=teclado.next();
 		
 		
@@ -71,22 +71,18 @@ public class Principal {
 			break;
 			
 		case "resta":
-			System.out.println("La resta de esos valores es: "+hacerResta(crear()));
-			break;
-			
+			System.out.println("La resta de esos valores es: "+haceResta(crear()));
 			break;
 			
 		case "multiplicacion":
-			System.out.println("La multiplicación de esos valores es: "+hacerMultiplicacion(crear()));
-			break;
-			
+			System.out.println("La multiplicaciÃ³n de esos valores es: "+hacerMultiplicacion(crear()));
 			break;
 			
 		case "division":
-			System.out.println("La división de esos valores es: "+hacerDivision(crear()));
+			System.out.println("La divisiÃ³n de esos valores es: "+hacerDivision(crear()));
 			break;
 		default:
-			System.out.println("Cálculo no encontrado");
+			System.out.println("CÃ¡lculo no encontrado");
 			break;
 		}
 
